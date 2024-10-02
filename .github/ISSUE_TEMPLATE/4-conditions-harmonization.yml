@@ -1,0 +1,26 @@
+name: Conditions Data Harmonization
+description: >
+  Template for conditions data harmonization tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Conditions Data Harmonization "
+labels: []
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Conditions Data Harmonization
+        ### Description: 
+        This task involves harmonizing a study's conditions data to the [INCLUDE DCC's data model](https://include-dcc.github.io/include-linkml/).
+  - type: checkboxes
+    attributes:
+      label: Completion Checklist
+      options:
+        - label: Conditions Data Harmonized
+        - label: Data handed off for FHIR ingest
+  - type: input
+    attributes: 
+      label: Additional Notes 
+      description: Add any relevant context or known issues that need extra attention. 
+      placeholder: 'e.g., Select x was dropped ...'

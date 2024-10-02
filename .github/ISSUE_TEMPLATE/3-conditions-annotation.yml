@@ -1,0 +1,26 @@
+name: Summary generation
+description: >
+  Template for conditions data annotation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Conditions Data Annotation "
+labels: []
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Conditions Data Annotation
+        ### Description: 
+        This task involves annotating conditions data with ontologies (Mondo, NCIT, LOINC, etc.), following extraction from original study tables. 
+  - type: checkboxes
+    attributes:
+      label: Completion Checklist
+      options:
+        - label: Conditions Data Annotated
+        - label: Data handed off for Harmonization
+  - type: input
+    attributes: 
+      label: Additional Notes 
+      description: Add any relevant context or known issues that need extra attention. 
+      placeholder: 'e.g., Select x was dropped ...'

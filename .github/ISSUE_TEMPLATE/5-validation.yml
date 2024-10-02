@@ -1,0 +1,34 @@
+name: Data Validation
+description: >
+  Template for data validation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Data Validation"
+labels: []
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Data Validation
+        ### Description: 
+        This task involves validation of all relevant data types against [INCLUDE DCC's data model](https://include-dcc.github.io/include-linkml/).
+  - type: checkboxes
+    attributes:
+      label: Relevant Data Types
+      options:
+        - label: Participant Data
+        - label: Conditions Data
+        - label: Biospecimen Data 
+  - type: input
+    attributes: 
+      label: Additional Notes 
+      description: Add any relevant context or known issues that need extra attention. 
+      placeholder: 'e.g., Select x was dropped ...'
+  - type: checkboxes
+    attributes: 
+      label: Completion Checklist 
+      options: 
+        - label: Participants Data Validation Passed
+        - label: Conditions Data Validation Passed
+        - label: Biospecimen Data Validation Passed
