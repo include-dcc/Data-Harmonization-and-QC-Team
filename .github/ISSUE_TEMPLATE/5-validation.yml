@@ -19,15 +19,15 @@ body:
         - label: Participant Data
         - label: Conditions Data
         - label: Biospecimen Data 
-    - type: input
-      attributes: 
+  - type: input
+    attributes: 
       label: Additional Notes 
       description: Add any relevant context or known issues that need extra attention. 
       placeholders: 'e.g., Select x was dropped ...'
-    - type: checkboxes
-      attributes: 
-        label: Completion Checklist 
-        options: 
-          - label: Participants Data 
-          - label: Conditions Data 
-          - label: Biospecimen Data
+  - type: checkboxes
+    attributes: 
+      label: Completion Checklist 
+      options: 
+        - label: Participants Data 
+        - label: Conditions Data 
+        - label: Biospecimen Data
