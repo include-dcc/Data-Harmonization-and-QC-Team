@@ -1,6 +1,6 @@
 name: Summary generation
 description: >
-Template for sammary generation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+  Template for sammary generation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
 title: "[Study] [Version]: Summary Generation "
 labels: []
 projects: []
