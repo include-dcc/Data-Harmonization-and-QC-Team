@@ -10,10 +10,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Participant Data Harmonization
-        ### Description:
+        ### Participant Data Harmonization
+        #### Description:
         Need to add a description
-        ### Key Components:
+       
+        #### Key Components:
         **Participant ID Check**
         Verify the uniqueness and consistency of participant IDs across the datasets.
         Identify and resolve any duplicate or missing IDs.
@@ -31,7 +32,7 @@ body:
       label: Relevant Ticket Number
       description: Please provide any relevant ticket number from the Data Intake Team for traceability
       placeholder: 'e.g., #12345'
-   - type: checkboxes
+  - type: checkboxes
     attributes:
       label: Completion Checklist
       options:

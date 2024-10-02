@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Conditions Data Extraction
-        ### Description: 
+        ### Conditions Data Extraction
+        #### Description: 
         This task involves extracting conditions data from original study tables. 
   - type: checkboxes
     attributes:

@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Summary Generation
-        ### Description: 
+        ### Summary Generation
+        #### Description: 
         This task involves generating summary counts of all relevant data types for a given study to be referenced in QC efforts. 
   - type: checkboxes
     attributes:

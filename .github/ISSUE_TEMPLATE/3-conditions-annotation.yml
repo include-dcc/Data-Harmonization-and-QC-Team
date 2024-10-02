@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Conditions Data Annotation
-        ### Description: 
+        ### Conditions Data Annotation
+        #### Description: 
         This task involves annotating conditions data with ontologies (Mondo, NCIT, LOINC, etc.), following extraction from original study tables. 
   - type: checkboxes
     attributes:
