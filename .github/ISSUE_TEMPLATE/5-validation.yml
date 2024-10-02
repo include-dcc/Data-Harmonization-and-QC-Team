@@ -12,7 +12,7 @@ body:
       value: |
         ## Data Validation
         ### Description: 
-        This task involves validation of all relevant data types against [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/).
+        This task involves validation of all relevant data types against [INCLUDE DCC's data model](https://include-dcc.github.io/include-linkml/).
   - type: checkboxes
     attributes:
       label: Relevant Data Types
