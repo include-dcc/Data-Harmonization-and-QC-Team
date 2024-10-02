@@ -1,0 +1,33 @@
+name: Summary generation
+description: >
+Template for sammary generation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Summary Generation "
+labels: []
+projects: []
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ###Description: 
+        This task involves generating summary counts of all relevant data types for a given study to be referenced in QC efforts. 
+  - type: checkboxes
+    attributes:
+      label: Relevant Data Types
+      options:
+        - label: Participant Data
+        - label: Conditions Data
+        - label: Biospecimen Data 
+    - type: input
+      attributes: 
+      label: Additional Notes 
+      description: Add any relevant context or known issues that need extra attention. 
+      placeholders: 'e.g., Select x was dropped ...'
+    - type: checkboxes
+      attributes: 
+        label: Completion Checklist 
+        options: 
+          - label: Participants Data 
+          - label: Conditions Data 
+          - label: Biospecimen Data
