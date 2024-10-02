@@ -1,4 +1,4 @@
-name: Summary generation
+name: Summary Generation
 description: >
   Template for sammary generation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
 title: "[Study] [Version]: Summary Generation "
@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Summary Generation
-        ### Description: 
+        ### Summary Generation
+        #### Description: 
         This task involves generating summary counts of all relevant data types for a given study to be referenced in QC efforts. 
   - type: checkboxes
     attributes:
