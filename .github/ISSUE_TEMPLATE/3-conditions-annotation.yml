@@ -1,7 +1,7 @@
-name: Summary generation
+name: Conditions Data Annotations
 description: >
   Template for conditions data annotation tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
-title: "[Study] [Version]: Conditions Data Annotation "
+title: "[Study] [Version]: Conditions Data Annotation"
 labels: []
 projects: []
 assignees: []
