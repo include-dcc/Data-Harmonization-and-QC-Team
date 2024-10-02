@@ -1,6 +1,6 @@
 name: Participant Data Harmonization
 description: >
-  Template for participant data harmonization tasks as part of the INCLUDE DCC's Data Management Core (DMC). 
+  Template for participant data harmonization tasks as part of the INCLUDE DCC's Data Management Core (DMC).
 title: "[Study] [Version]: Participant Data Harmonization"
 labels: []
 projects: []
@@ -11,30 +11,30 @@ body:
     attributes:
       value: |
         ## Participant Data Harmonization
-        ### Description: 
-        Need to add a description 
-        ### Key Components: 
-        **Participant ID Check** 
+        ### Description:
+        Need to add a description
+        ### Key Components:
+        **Participant ID Check**
         - Verify the uniqueness and consistency of participant IDs across the datasets.
-        - Identify and resolve any duplicate or missing IDs. 
-        **Mint Global IDs** 
-        - Assign global IDs for participants, ensuring that each participant has a unique identifier. 
-        **Data Harmonization** 
-        -Harmonize participant data to the [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/). 
+        - Identify and resolve any duplicate or missing IDs.
+        **Mint Global IDs**
+        - Assign global IDs for participants, ensuring that each participant has a unique identifier.
+        **Data Harmonization**
+        -Harmonize participant data to the [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/).
   - type: checkboxes
     attributes:
       label: Data Received Certification
-      options: 
-        - label: I certify all data has been processed and handed off from the Data Intake Team. 
+      options:
+        - label: I certify all data has been processed and handed off from the Data Intake Team.
   - type: input
-    attributes: 
+    attributes:
       label: Relevant Ticket Number
       description: Please provide any relevant ticket number from the Data Intake Team for traceability
-      placeholder: 'e.g., #12345' 
+      placeholder: 'e.g., #12345'
    - type: checkboxes
-    attributes: 
-      label: Completion Checklist 
-      options: 
+    attributes:
+      label: Completion Checklist
+      options:
         - label: Participant IDs Checked
         - label: Global IDs Minted
         - label: Data Harmonized
