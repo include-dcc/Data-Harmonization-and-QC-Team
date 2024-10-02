@@ -12,7 +12,7 @@ body:
       value: |
         ## Conditions Data Harmonization
         ### Description: 
-        This task involves harmonizing a study's conditions data to the [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/).
+        This task involves harmonizing a study's conditions data to the [INCLUDE DCC's data model](https://include-dcc.github.io/include-linkml/).
   - type: checkboxes
     attributes:
       label: Completion Checklist
