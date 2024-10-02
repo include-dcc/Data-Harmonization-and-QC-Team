@@ -5,9 +5,10 @@ title: "[Study] [Version]: Participant Data Harmonization"
 labels: []
 projects: []
 assignees: []
+
 body:
   - type: markdown
-    attributes:
+    attributes: 
       value: |
         ## Participant Data Harmonization
         ### Description: 
