@@ -14,13 +14,13 @@ body:
         ### Description:
         Need to add a description
         ### Key Components:
-        **Participant ID Check**
-        - Verify the uniqueness and consistency of participant IDs across the datasets.
-        - Identify and resolve any duplicate or missing IDs.
-        **Mint Global IDs**
-        - Assign global IDs for participants, ensuring that each participant has a unique identifier.
-        **Data Harmonization**
-        -Harmonize participant data to the [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/).
+          **Participant ID Check**
+          - Verify the uniqueness and consistency of participant IDs across the datasets.
+          - Identify and resolve any duplicate or missing IDs.
+          **Mint Global IDs**
+          - Assign global IDs for participants, ensuring that each participant has a unique identifier.
+          **Data Harmonization**
+          -Harmonize participant data to the [INCLUDE DCC's data model] (https://include-dcc.github.io/include-linkml/).
   - type: checkboxes
     attributes:
       label: Data Received Certification
