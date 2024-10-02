@@ -8,7 +8,7 @@ assignees: []
 
 body:
  - type: markdown
-    attributes: 
+    attributes:
       value: |
         ## Participant Data Harmonization
         ### Description: 
