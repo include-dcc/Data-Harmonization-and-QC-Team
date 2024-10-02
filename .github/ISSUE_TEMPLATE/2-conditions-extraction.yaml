@@ -1,0 +1,21 @@
+name: Conditions Data Harmonization
+description: >
+  Template for conditions data harmonization tasks as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Conditions Data Extraction"
+labels: []
+projects: []
+assignees: []
+
+body: 
+  - type: markdown
+    attributes: 
+      value: |
+        ## Conditions Data Extraction
+        ### Description: 
+        This task involved extraction the conditions data table prior to hand off for annotations. 
+   - type: checkboxes
+    attributes: 
+      label: Completion Checklist 
+      options: 
+        - label: Conditions Data Extracted 
+        - label: Conditions Annotation Ticket Created
