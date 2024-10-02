@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Data Validation
-        ### Description: 
+        ### Data Validation
+        #### Description: 
         This task involves validation of all relevant data types against [INCLUDE DCC's data model](https://include-dcc.github.io/include-linkml/).
   - type: checkboxes
     attributes:
