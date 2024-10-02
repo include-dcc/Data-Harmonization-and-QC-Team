@@ -7,7 +7,7 @@ projects: []
 assignees: []
 
 body:
-  - type: markdown
+- type: markdown
     attributes: 
       value: |
         ## Participant Data Harmonization
