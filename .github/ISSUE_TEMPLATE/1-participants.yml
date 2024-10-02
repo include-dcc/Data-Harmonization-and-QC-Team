@@ -12,7 +12,7 @@ body:
       value: |
         ## Participant Data Harmonization
         ### Description: 
-        [Need to add a description] 
+        Need to add a description 
         ### Key Components: 
         1. **Participant ID Check** 
           - Verify the uniqueness and consistency of participant IDs across the datasets.
