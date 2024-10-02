@@ -4,7 +4,7 @@ description: >
 title: "[Study] [Version]: Summary Generation "
 labels: []
 projects: []
-assignees: ''
+assignees: []
 
 body:
   - type: markdown
@@ -23,7 +23,7 @@ body:
     attributes: 
       label: Additional Notes 
       description: Add any relevant context or known issues that need extra attention. 
-      placeholders: 'e.g., Select x was dropped ...'
+      placeholder: 'e.g., Select x was dropped ...'
   - type: checkboxes
     attributes: 
       label: Completion Checklist 
