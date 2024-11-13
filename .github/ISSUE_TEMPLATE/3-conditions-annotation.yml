@@ -18,9 +18,9 @@ body:
       label: Completion Checklist
       options:
         - label: Conditions Data Annotated
-        - label: Data handed off for Harmonization
+        - label: Data handed off for Review
   - type: input
     attributes: 
       label: Additional Notes 
       description: Add any relevant context or known issues that need extra attention. 
-      placeholder: 'e.g., Select x was dropped ...'
+      placeholder: 'e.g., Synapse Link ...'
