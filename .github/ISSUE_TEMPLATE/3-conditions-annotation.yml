@@ -18,7 +18,7 @@ body:
       label: Completion Checklist
       options:
         - label: Conditions Data Annotated
-        - label: Data handed off for Harmonization
+        - label: Data handed off for Review
   - type: input
     attributes: 
       label: Additional Notes 
