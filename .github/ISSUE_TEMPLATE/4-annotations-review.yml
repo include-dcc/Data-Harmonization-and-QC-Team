@@ -1,0 +1,27 @@
+name: Conditions Annotations Review
+description: >
+  Template for review of conditions annotation as part of data harmonization in the INCLUDE DCC's Data Management Core (DMC). 
+title: "[Study] [Version]: Conditions Annotations Review"
+labels: []
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Conditions Data Annotation
+        #### Description: 
+        This task involves review of annotations to ensure the annotations represent the orginal data. 
+  - type: checkboxes
+    attributes:
+      label: Completion Checklist
+      options:
+        - label: Conditions Annotations Reviewed
+        - label: Issues Addressed 
+        - label: Data handed off for Harmonization
+  - type: input
+    attributes: 
+      label: Additional Notes 
+      description: Add any relevant context or known issues that need extra attention. 
+      placeholder: 'e.g., Select x was dropped ...'
