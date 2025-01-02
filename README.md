@@ -14,7 +14,7 @@ Our goal is to improve the accuracy, reliability, and usability of data through 
 - Create data harmonization tools to support long term sustainability
 
 #### SOP 
-- Coming Soon
+- Coming Soon, in progress [here](https://docs.google.com/document/d/1aypERCPPfT8xziFIk7iA64O6qk3BEa7Sn5sBqPBNbEQ/edit?tab=t.0#heading=h.7n0q03hpdy4d)
 
 #### Reference Links: 
 - [INCLUDE Data Hub](https://portal.includedcc.org/)
