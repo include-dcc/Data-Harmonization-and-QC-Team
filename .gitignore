@@ -189,4 +189,6 @@ cython_debug/
 
 
 # Custom
-data/*
+/src/notebooks/icd-to-mondo/data/*
+!/src/notebooks/icd-to-mondo/data/.gitkeep
+
