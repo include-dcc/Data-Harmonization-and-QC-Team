@@ -1,0 +1,24 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?mondo_curie ?label ?xref ?is_obsolete ?has_equivalentTo
+WHERE {
+  ?class a owl:Class ;
+         oboInOwl:hasDbXref ?xref .
+
+  OPTIONAL { ?class rdfs:label ?label }
+
+  BIND(REPLACE(STR(?class), "http://purl.obolibrary.org/obo/MONDO_", "MONDO:") AS ?mondo_curie)
+  BIND(EXISTS { ?class owl:deprecated true } AS ?is_obsolete)
+
+  # Check if there is a MONDO:equivalentTo annotation on the xref
+  BIND(EXISTS {
+    ?axiom a owl:Axiom ;
+           owl:annotatedSource ?class ;
+           owl:annotatedProperty oboInOwl:hasDbXref ;
+           owl:annotatedTarget ?xref ;
+           oboInOwl:source "MONDO:equivalentTo"
+  } AS ?has_equivalentTo)
+}
+ORDER BY ?mondo_curie
