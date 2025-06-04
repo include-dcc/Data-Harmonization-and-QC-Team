@@ -1,0 +1,20 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT DISTINCT ?curie ?label ?definition ?synonym
+WHERE {
+  ?class a owl:Class .
+  FILTER(STRSTARTS(STR(?class), "http://purl.bioontology.org/ontology/ICD10CM/"))
+
+  BIND(REPLACE(STR(?class), "http://purl.bioontology.org/ontology/ICD10CM/", "ICD10CM:") AS ?curie)
+
+  OPTIONAL { ?class rdfs:label ?raw_label .
+    BIND(STR(?raw_label) AS ?label) }
+  OPTIONAL { ?class IAO:0000115 ?definition }
+  OPTIONAL { ?class oboInOwl:hasExactSynonym ?raw_synonym .
+    BIND(STR(?raw_synonym) AS ?synonym) }
+}
+ORDER BY ?curie
+
